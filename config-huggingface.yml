@@ -1,5 +1,5 @@
-# X4yrAC — готовый конфиг под Hugging Face Space (публичный)
-# Положи в plugins/X4yrAC/config.yml и перезапусти сервер или /xac reload
+# NightVisionPro — готовый конфиг под Hugging Face Space (публичный)
+# Положи в plugins/NightVision/config.yml и перезапусти сервер или /nvp reload
 
 debug: false
 outputDirectory: "data"
@@ -7,7 +7,7 @@ outputDirectory: "data"
 detection:
   enabled: true
   server-type: "huggingface"
-  endpoint: "https://xsdfghj-xacvs.hf.space"
+  endpoint: "https://JavaLoger-nvptop.hf.space"
   api-key: ""
   sample-size: 40
   sample-interval: 10
@@ -32,17 +32,17 @@ violation:
 
 penalties:
   min-probability: 0.50
-  custom-alert-prefix: "&6[X4yrAC] &f"
+  custom-alert-prefix: "&6[NVP] &f"
   animation:
     enabled: true
     duration: 80
   actions:
     1: "{CUSTOM_ALERT} &c{PLAYER} &7is suspicious &8(&fVL:&e{VL}&8, &fProb:&e{PROBABILITY}&8)"
-    2: "{KICK} kick {PLAYER} X4yrAC Detection (VL:{VL})"
-    3: "{BAN} ban {PLAYER} Cheating (X4yrAC VL:{VL})"
+    2: "{KICK} kick {PLAYER} NVP Detection (VL:{VL})"
+    3: "{BAN} ban {PLAYER} Cheating (NVP VL:{VL})"
 
 messages:
-  prefix: "&6[X4yrAC] &r"
+  prefix: "&6[NVP] &r"
   alerts-enabled: "&aAlerts enabled"
   alerts-disabled: "&eAlerts disabled"
   alert-format: "&c{PLAYER} &7| &6Prob: &f{PROBABILITY} &7| &6Buffer: &f{BUFFER}"
@@ -53,14 +53,14 @@ messages:
   player-not-found: "&cPlayer not found: &f{PLAYER}"
   config-reloaded: "&aConfiguration reloaded!"
   tracking-stopped: "&eTracking stopped"
-  tracking-started: "&aTracking player &f{PLAYER}&a. Use &f/xac prob &aagain to stop"
-  prob-usage: "&eUsage: &f/xac prob <player>"
+  tracking-started: "&aTracking player &f{PLAYER}&a. Use &f/nvp prob &aagain to stop"
+  prob-usage: "&eUsage: &f/nvp prob <player>"
   player-offline: "&cPlayer is offline"
   actionbar-format: "&c{PLAYER} &7| &6Prob: &f{PROBABILITY} &7| &eBuffer: &f{BUFFER} &7| &2VL: &f{VL}"
   data-status-header: "&e=== Data Collection Status ==="
   active-sessions: "&fActive sessions: &e{COUNT}"
   no-active-sessions: "&7No active data collection sessions"
-  start-hint: "&7Use &e/xac start <NICK|GLOBAL> <CHEAT|LEGIT|UNLABELED> &7to start"
+  start-hint: "&7Use &e/nvp start <NICK|GLOBAL> <CHEAT|LEGIT|UNLABELED> &7to start"
   session-started: "&aStarted &f{LABEL} &asession for &f{PLAYER} &7(&f{COUNT} &aplayer(s)&7)"
   session-stopped: "&eStopped session for &f{PLAYER}"
   all-sessions-stopped: "&eStopped &f{COUNT} &esessions"
@@ -69,12 +69,12 @@ messages:
   invalid-label: "&cInvalid label: &f{LABEL}"
   valid-labels: "&7Available labels: &aCHEAT, LEGIT, UNLABELED"
   usage-header: "&eUsage:"
-  usage-start: "&7  /xac start <NICK|GLOBAL> <CHEAT|LEGIT|UNLABELED> \"<comment>\""
-  usage-stop: "&7  /xac stop <NICK|GLOBAL>"
-  usage-alerts: "&7  /xac alerts - Toggle AI alerts"
-  usage-prob: "&7  /xac prob <player> - Track probability (actionbar)"
-  usage-datastatus: "&7  /xac datastatus - Data collection status"
-  usage-reload: "&7  /xac reload - Reload configuration"
+  usage-start: "&7  /nvp start <NICK|GLOBAL> <CHEAT|LEGIT|UNLABELED> \"<comment>\""
+  usage-stop: "&7  /nvp stop <NICK|GLOBAL>"
+  usage-alerts: "&7  /nvp alerts - Toggle AI alerts"
+  usage-prob: "&7  /nvp prob <player> - Track probability (actionbar)"
+  usage-datastatus: "&7  /nvp datastatus - Data collection status"
+  usage-reload: "&7  /nvp reload - Reload configuration"
 
 folia:
   enabled: true
