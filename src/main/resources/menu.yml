@@ -1,0 +1,109 @@
+menu_title: "&8Курятник"
+size: 54
+player_slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+
+player_head:
+  display_name: "&x&0&0&C&1&F&F▶ &f{PLAYER} [{PROGRESS}] {PERCENT}"
+  lore:
+    - '&f'
+    - '&f &x&A&1&E&8&F&FПоследние проверки:'
+    - '&f %crit1% %crit2% %crit3% %crit4% %crit5%'
+    - '&f %crit6% %crit7% %crit8% %crit9% %crit10%'
+    - '&f %crit11% %crit12% %crit13% %crit14% %crit15%'
+    - '&f'
+    - '&f %aim1% %aim2% %aim3% %aim4% %aim5%'
+    - '&f %aim6% %aim7% %aim8% %aim9% %aim10%'
+    - '&f %aim11% %aim12% %aim13% %aim14% %aim15%'
+    - '&f'
+    - '&f &x&A&1&E&8&F&FСредний риск:'
+    - '&f &6AVG: {AVG}'
+    - '&f'
+    - '&f &x&A&1&E&8&F&FПоследний сервер:'
+    - '&f &f{SERVER}'
+    - '&f'
+    - '&f &x&A&1&E&8&F&FПоследний удар:'
+    - '&f &f{TIME}'
+    - '&f'
+    - '&f &x&0&0&C&1&F&F▶ &fНажмите, чтобы следить'
+
+items:
+  border_top:
+    material: BLUE_STAINED_GLASS_PANE
+    display_name: "&f"
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+
+  border_side:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: "&f"
+    slots:
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+
+navigation:
+  previous_page:
+    slot: 45
+    material: ARROW
+    display_name: "&x&0&0&C&1&F&F▶ &fПредыдущая страница"
+  
+  next_page:
+    slot: 53
+    material: ARROW
+    display_name: "&x&0&0&C&1&F&F▶ &fСледующая страница"
+
+progress_bar:
+  length: 8
+  filled: "■"
+  empty: " "
+  filled_color: "&#FF5300"
+  empty_color: "&7"

@@ -1,0 +1,78 @@
+sync:
+  type: "none"
+  redis:
+    host: "localhost"
+    port: 6379
+    password: ""
+    prefix: "nvp:"
+
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "nvp"
+    username: "root"
+    password: ""
+    table-prefix: "nvp_"
+
+debug: true
+outputDirectory: "data"
+
+detection:
+  enabled: true
+  server-type: "huggingface"
+  endpoint: "https://JavaLoger-nvp28.hf.space/"
+  api-key: ""
+  sample-size: 40
+  sample-interval: 10
+
+  worldguard:
+    enabled: true
+    disabled-regions:
+      - "spawn:spawn"
+
+alerts:
+  threshold: 0.75
+  console: false
+  time-delay: 0
+violation:
+  threshold: 40
+  reset-value: 20
+  multiplier: 100.0
+  decay: 0.35
+  vl-decay:
+    enabled: true
+    interval: 200
+    amount: 1
+penalties:
+  min-probability: 0.50
+  auto-gui-threshold: 0.3
+  animation:
+    enabled: true
+    duration: 80
+
+holograms:
+  enabled: true
+  distance: 15
+  height: 0.5
+  line-spacing: 0.25
+  update-interval: 2
+  avg-parameters:
+    - "rotation"
+    - "aimbot"
+    - "gcd"
+    - "snap"
+    - "smooth"
+
+  format:
+    - "&7AVG: {AVG}"
+    - "{ROTATION} {AIMBOT} {GCD} {SNAP} {SMOOTH}"
+
+stat:
+  format:
+    - "&7───────────────────────────────"
+    - "&fИгрок: &#FF0000{PLAYER}"
+    - "&fВероятность: &#FF0000{PROBABILITY}"
+    - "&fVL: &#FF0000{VL}"
+    - "&fPing: &#FF0000{PING}ms"
+    - "&fВремя игры: &#FF0000%player%"
+    - "&7───────────────────────────────"

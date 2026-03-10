@@ -1,0 +1,14 @@
+enabled: true
+server-name: "HolyWorld"
+min-probability: 1.00
+cooldown: 60
+
+url: "https://discord.com/api/webhooks/1467535455091425496/Qy_dSh9AbAAX6NQDIFZDbDB2M5ysPDbRzQ-q0BWC3bGxJWhgP0fMl_LMXQ8wj_2YTia4"
+embed-title: "**Новое нарушение**"
+embed-color: "#00FFFF"
+timestamp: true
+violation-content:
+  - "Игрок: **{PLAYER}**"
+  - "Вероятность: **{PROBABILITY}%**"
+  - "AVG: **{AVG}**"
+  - "Сервер: **{SERVER}**"

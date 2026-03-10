@@ -1,0 +1,25 @@
+name: NightVision
+version: 1.0.1
+main: org.loger.Main
+api-version: 1.16
+softdepend: [packetevents]
+
+commands:
+  nvp:
+    description: NightVision Anticheat commands
+    usage: |
+      /nvp start <NICK> <CHEAT|LEGIT|UNLABELED> "<comment>"
+      /nvp stop <NICK>
+      /nvp alerts - Toggle alerts
+      /nvp prob <player> - Show player probability
+      /nvp reload - Reload config
+    permission: nvp.admin
+    aliases: [nightvision]
+
+permissions:
+  nvp.admin:
+    description: Allows use of all NightVision commands
+    default: op
+  nvp.alerts:
+    description: Allows toggling AI alerts
+    default: op

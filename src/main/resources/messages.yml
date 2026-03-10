@@ -1,0 +1,60 @@
+# Сообщение
+
+prefix: "&7[&#FF0000NVP&7] &f"
+
+# Алерты
+alerts-enabled: "&fОповещения включены"
+alerts-disabled: "&fОповещения выключены"
+alert-format: "&7[&x&F&B&0&8&0&8&lHAC&r&7]&f &x&F&B&0&8&0&8({PLAYER} &7%ping% ⇆&x&F&B&0&8&0&8) &7провалил &6KIllAura  &7({PROBABILITY}%) &7(&x&F&B&0&8&0&8{VL}VL&7)"
+
+# Общие
+unknown-command: "&fНеизвестная команда: &#FF0000{ARGS}"
+players-only: "&fЭта команда только для игроков!"
+no-permission: "&fУ вас нет прав!"
+player-not-found: "&fИгрок &#FF0000{PLAYER} &fне найден"
+config-reloaded: "&fКонфигурация перезагружена!"
+player-offline: "&fИгрок оффлайн"
+
+# Голограммы
+hologram-enabled: "&fГолограммы включены"
+hologram-disabled: "&fГолограммы выключены"
+
+# Трекинг
+tracking-stopped: "&fТрекинг остановлен"
+tracking-started: "&fТрекинг игрока &#FF0000{PLAYER}"
+prob-usage: "&fИспользование: &#FF0000/nvp prob <игрок>"
+stat-usage: "&fИспользование: &#FF0000/nvp stat <игрок> [-d дни] [-h часы]"
+
+# GUI меню
+case-taken: "&x&0&0&C&1&F&F▶ &fВы взяли дело игрока &x&0&0&C&1&F&F{PLAYER}"
+
+# ActionBar
+actionbar-format: "&#FF0000{PLAYER} &7| &fВероятность: &#FF0000{PROBABILITY} &7| &fVL: &#FF0000{VL}"
+
+# Датасеты
+data-status-header: "&7=== Статус датасетов ==="
+active-sessions: "&fАктивные сессии: &#FF0000{COUNT}"
+no-active-sessions: "&fНет активных сессий"
+start-hint: "&fИспользуйте &#FF0000/nvp dataset start <ник> <CHEAT|LEGIT>"
+session-started: "&fНачата &#FF0000{LABEL} &fсессия для &#FF0000{PLAYER}"
+session-stopped: "&fСессия остановлена для &#FF0000{PLAYER}"
+no-sessions-to-stop: "&fНет сессий для остановки"
+invalid-label: "&fНеправильная метка: &#FF0000{LABEL}"
+valid-labels: "&fМетки: &#FF0000CHEAT, LEGIT, UNLABELED"
+
+# Использование команд
+usage-header: "&fИспользование:"
+usage-alerts: "&7  /nvp alerts"
+usage-prob: "&7  /nvp prob <игрок>"
+usage-reload: "&7  /nvp reload"
+usage-hologram: "&7  /nvp hologram"
+usage-stat: "&7  /nvp stat <игрок> [-d дни] [-h часы]"
+usage-dataset: "&7  /nvp dataset <start|stop|status>"
+usage-kicklist: "&7  /nvp kicklist"
+usage-gui: "&7  /nvp gui"
+usage-dopinfo: "&7  /nvp dopinfo [игрок]"
+
+# DopInfo
+dopinfo-enabled: "&fDopInfo включен для всех игроков"
+dopinfo-enabled-player: "&fDopInfo включен для &#FF0000{PLAYER}"
+dopinfo-disabled: "&fDopInfo выключен"
